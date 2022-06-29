@@ -1,0 +1,366 @@
+::before,
+::after{
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+ul,
+ol,
+li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: inherit;
+  font-size: inherit;
+}
+
+html,
+body {
+  height: 100%;
+  line-height: 1;
+  background-color: #000000;
+}
+
+body{
+
+}
+
+
+
+/* ----------             */
+.wrapper{
+ overflow: hidden;
+ display: flex;
+ flex-direction: column;
+ min-height: 100%;
+}
+/*    ----------         */
+
+
+.main{
+  flex: 1 1 auto;
+}
+
+[class*="__container"]{
+  max-width: 1440px;
+  margin: 0px auto;
+  padding: 0px 15px;
+}
+/*     PC            */
+@media(max-width: 1440px){
+  [class*="__container"]{
+    max-width: 970px;
+  }
+}
+
+/*     TABLET      */
+@media(max-width: 991.98px){
+  [class*="__container"]{
+    max-width: 750px;
+  }
+}
+/* MOBILE   */
+@media(max-width: 767.98px){
+  [class*="__container"]{
+    max-width: none;
+  }
+}
+
+.header{
+  position: absolute;
+  width: 100%;
+  top: 0%;
+  left: 0%;
+  z-index: 50;
+}
+.header__container{
+display: flex;
+min-height: 232px;
+align-items: center;
+}
+
+.header__menu{
+flex: 1 1 auto;
+}
+
+.menu{
+display: flex;
+justify-content: center;
+padding: 0px 500px 0px 0px;
+}
+.menu__list{
+display: flex;
+}
+.menu__item{
+padding: 0px 40px 0px 0px;
+}
+.menu__link{
+  font-family: 'Raleway';
+  text-transform: uppercase;
+  font-weight: 600;
+font-size: 24px;
+line-height: 2,8;
+color: #FFFFFF;
+letter-spacing: 1px;
+}
+.menu__link:hover{
+  text-decoration: underline;
+}
+
+.mafia{
+  font-family: 'Keania One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 78px;
+  
+  color: #FFFFFF;
+ padding: 0px 140px 0px 0px;
+}
+
+/*--------------------------------------------------------------------------------
+----------------------------------------------------------------------------------
+----------------------------------------------------------------------------------
+----------------------------------------------------------------------------------
+----------------------------------------------------------------------------------
+----------------------------------------------------------------------------------
+----------------------------------------------------------------------------------
+----------------------------------------------------------------------------------
+----------------------------------------------------------------------------------
+----------------------------------------------------------------------------------
+----------------------------------------------------------------------------------
+----------------------------------------------------------------------------------
+----------------------------------------------------------------------------------
+----------------------------------------------------------------------------------
+----------------------------------------------------------------------------------
+
+*/
+.get-started{
+}
+
+.get-started__container{
+  padding: 160px 0px 0px 0px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+.get-started__content{
+  flex: 0 1 100%;
+  padding: 0px 0px 0px 20px;
+}
+.get-started__greeting{
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 100;
+font-size: 100px;
+line-height: 117px;
+
+
+color: #FFFFFF;
+text-align: left;
+}
+.whomafia{
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 130px;
+  line-height: 153px;
+  /* identical to box height */
+  
+  text-align: center;
+  text-decoration-line: underline;
+  
+  color: #C10000;
+
+}
+.main__text-block{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  text-align: l;
+  color: #FFFFFF;
+  padding: 0px 0px 0px 0px;
+}
+.main__button_red{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  display: flex;
+  
+  
+  color: #FFFFFF;
+  border: 1px solid #C10000 ;
+  border-radius: 10px;
+  background-color: #C10000;
+  font-size:20px;
+    line-height:normal;
+  
+    float: left;
+  width: 48%;
+  margin: 0px 5px;
+}
+.main__button_black{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  display: flex;
+  
+  
+  color: #C10000;
+  border: 1px solid #C10000;
+  border-radius: 10px;
+  background-color: black;
+  font-size:21px;
+    line-height:normal;
+    
+    float: left;
+    width: 40%;
+    margin: 0px 5px;
+}
+
+
+.main__description{
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 36px;
+  line-height: 132%;
+  /* or 48px */
+  color: #FFFFFF;
+}
+.convince{
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 36px;
+  line-height: 132%;
+  /* or 48px */
+  
+  
+  color: #C10000;
+}
+.bgimg{
+position: absolute;
+bottom: 0;
+width: 1900px;
+height: 965px;
+left: -74px;
+top: 25px;
+
+background: linear-gradient(0deg, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url(.jpg);
+
+}
+
+
+.main_list-item{
+  justify-content: center;
+  padding: 0px 0px 0px 218px;
+}
+button:active, button:focus {
+  outline: none !important;
+}
+button::-moz-focus-inner {
+  border: 0 !important;
+}
+
+
+.main__button_red:hover{
+  color: #fff;
+    	background: #000000;
+    	tansition: all .4s linear;
+    	-webkit-transition: all .4s linear;
+    	-moz-transition: all .4s linear; 
+}
+
+.main__button_black:hover{
+  color: #fff;
+    	background: #000000;
+      tansition: all .4s linear;
+    	-webkit-transition: all .4s linear;
+    	-moz-transition: all .4s linear; 
+}
+
+/*--------------------------------------------------------------------------------
+----------------------------------------------------------------------------------
+----------------------------------------------------------------------------------
+----------------------------------------------------------------------------------
+----------------------------------------------------------------------------------
+----------------------------------------------------------------------------------
+----------------------------------------------------------------------------------
+----------------------------------------------------------------------------------
+----------------------------------------------------------------------------------
+----------------------------------------------------------------------------------
+----------------------------------------------------------------------------------
+----------------------------------------------------------------------------------
+----------------------------------------------------------------------------------
+----------------------------------------------------------------------------------
+----------------------------------------------------------------------------------
+
+*/
+
+
+
+.get-end{
+
+}
+
+.get-end__container{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+
+.get-end__content{
+  flex: 0 1 100%;
+  padding: 0px 0px 0px 20px;
+}
+
+.get-end__fu{
+  font-family: 'Raleway';
+font-style: normal;
+font-weight: 100;
+font-size: 36px;
+line-height: 42px;
+text-align: left;
+color: #FFFFFF;
+}
+
+.get-end__img{
+padding: 0px 0px 0px 0px;
+}
+
+.get-end__button{
+  background-color: transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+}
